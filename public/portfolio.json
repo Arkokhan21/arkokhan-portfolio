@@ -1,0 +1,32 @@
+[
+    {
+        "id": "01",
+        "image": "https://i.ibb.co/0Q5573m/Screenshot-20221212-071830.png",
+        "title": "Bikes 4U",
+        "description": "A full stack web application, which can be used by three types of users (Buyers, Sellers and Admin). Buyers can view orders and purchase products after payment (Payment by Stripe). Sellers can add and remove their products and advertise. Admin can view all sellers, all buyers and delete buyer or seller if desired.",
+        "technology": "React, react-hook-form, React Router, MongoDB, Node.js, Stripe, Firebase, Tailwind.",
+        "LiveSite": "https://bikes4u-eb6ec.web.app/",
+        "ClientCode": "https://github.com/Arkokhan21/bikes-4u-client",
+        "ServerCode": "https://github.com/Arkokhan21/bikes-4u-server"
+    },
+    {
+        "id": "02",
+        "image": "https://i.ibb.co/GQPxp4Y/Screenshot-20221212-072001.png",
+        "title": "Fitness Folk",
+        "description": "This is a personal service (fitness related) and service review website. User need to login via Google (also can create new Account). Users can add, delete and update their own reviews. Users can also add services while logged in.",
+        "technology": "React, react-photo-view, Tailwind, Firebase Authentication, Private Route, MongoDB, Node.js.",
+        "LiveSite": "https://fitness-folk.web.app/",
+        "ClientCode": "https://github.com/Arkokhan21/the-fitness-folk-client",
+        "ServerCode": "https://github.com/Arkokhan21/the-fitness-folk-server"
+    },
+    {
+        "id": "03",
+        "image": "https://i.ibb.co/PCn5wQV/Screenshot-20221212-072111.png",
+        "title": "Skill Edge",
+        "description": "It is an educational website, where users can choose the course of their choice. User can login through Google, Github with Firebase authentication. Users can download PDF to know details about all courses.",
+        "technology": "React, Firebase, Tailwind, React Router",
+        "LiveSite": "https://skill-edge-e9e3a.web.app/",
+        "ClientCode": "https://github.com/Arkokhan21/skill-edge-client",
+        "ServerCode": "https://github.com/Arkokhan21/skill-edge-server"
+    }
+]
