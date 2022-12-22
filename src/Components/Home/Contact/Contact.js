@@ -31,32 +31,37 @@ const Contact = () => {
     };
 
     return (
-        <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 border border-primary">
-            <div className="flex flex-col justify-between">
-                <div className="space-y-2">
-                    <h2 className="text-4xl font-bold lg:text-5xl">Get In Touch</h2>
+        <div
+            name="contact"
+            className="bg-gradient-to-b from-black to-gray-800"
+        >
+            <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+                <div className="flex flex-col justify-between">
+                    <div className="space-y-2">
+                        <h2 className="text-4xl font-bold lg:text-5xl text-center text-white">Get In Touch</h2>
+                    </div>
+                    <Lottie options={defaultOptions}
+                        height={400}
+                        width={400} />
                 </div>
-                <Lottie options={defaultOptions}
-                    height={400}
-                    width={400} />
+                <form ref={form} onSubmit={sendEmail} className="space-y-6 ng-untouched ng-pristine ng-valid">
+                    <div>
+                        <label htmlFor="name" className="text-sm text-white">Your name</label>
+                        <input id="name" type="text" name="user_name" className="w-full p-3 rounded" required />
+                    </div>
+                    <div>
+                        <label htmlFor="email" className="text-sm text-white">Your Email</label>
+                        <input id="email" type="email" name="user_email" className="w-full p-3 rounded" required />
+                    </div>
+                    <div>
+                        <label htmlFor="message" className="text-sm text-white">Message</label>
+                        <textarea id="message" name="message" rows="3" className="w-full p-3 rounded" required></textarea>
+                    </div>
+                    <button type="submit" className="font-bold uppercase w-28 text-white px-6 py-3 rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110 duration-300">Send</button>
+                </form>
             </div>
-            <form ref={form} onSubmit={sendEmail} className="space-y-6 ng-untouched ng-pristine ng-valid">
-                <div>
-                    <label htmlFor="name" className="text-sm">Your name</label>
-                    <input id="name" type="text" name="user_name" className="w-full p-3 rounded" />
-                </div>
-                <div>
-                    <label htmlFor="email" className="text-sm">Your Email</label>
-                    <input id="email" type="email" name="user_email" className="w-full p-3 rounded" />
-                </div>
-                <div>
-                    <label htmlFor="message" className="text-sm">Message</label>
-                    <textarea id="message" name="message" rows="3" className="w-full p-3 rounded"></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary p-3 font-bold uppercase rounded w-28">Send</button>
-            </form>
         </div>
     );
 };
 
-export default Contact;
+export default Contact; 

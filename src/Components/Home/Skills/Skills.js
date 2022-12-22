@@ -1,30 +1,31 @@
 import React from 'react';
-import frontend from '../../../assets/images/front-end-react.png'
-import mern from '../../../assets/images/mern.png'
+import image1 from '../../../assets/images/react.png'
+import image2 from '../../../assets/images/web-development.png'
+import image3 from '../../../assets/images/web-design.png'
 
 const Skills = () => {
     return (
-        <div>
-            <h1 className='text-3xl text-center my-10'>What I Provide</h1>
-            <div className='flex'>
-                <div className="card w-[600px]  shadow-xl mr-20 border-2 border-primary">
-                    <figure className="px-10 pt-10">
-                        <img className='h-[250px]' src={frontend} alt="" />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title">Front-End Development(React)</h2>
-                        <p>I specialize in front-end development using React. You can see some of my work below.</p>
-                    </div>
+        <div className="bg-gradient-to-b from-gray-800 to-black">
+            <div className='py-20 flex justify-center'>
+                <p className='text-white text-4xl font-bold inline border-b-4 border-gray-500'>What I Provide</p>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center'>
+                <div class="max-w-md p-6">
+                    <img className='h-12 w-12 mb-5' src={image1} alt="" />
+                    <h5 class="mb-2 text-2xl font-semibold text-white">Front-End Development (React)</h5>
+                    <p class="text-gray-300">I specialize in front-end development using React. You can see some of my work below.</p>
                 </div>
 
-                <div className="card w-[600px]  shadow-xl border-2 border-primary">
-                    <figure className="px-10 pt-10">
-                        <img className='h-[250px]' src={mern} alt="" />
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title">Mern Stack Development</h2>
-                        <p>I am a MERN stack web application developer. I use MongoDB and Express JS for the database and Node Js for server side work. </p>
-                    </div>
+                <div class="max-w-md p-6">
+                    <img className='h-12 w-12 mb-5' src={image2} alt="" />
+                    <h5 class="mb-2 text-2xl font-semibold text-white">MERN Stack Development</h5>
+                    <p class="text-gray-300">I also develop MERN stack web applications. I use MongoDB and Express JS for the database and Node Js for server-side work.</p>
+                </div>
+
+                <div class="max-w-md p-6">
+                    <img className='h-12 w-12 mb-5' src={image3} alt="" />
+                    <h5 class="mb-2 text-2xl font-semibold text-white">Web Design</h5>
+                    <p class="text-gray-300">I do UI/UX design for the website that helps the website to get a unique look.</p>
                 </div>
             </div>
         </div>
