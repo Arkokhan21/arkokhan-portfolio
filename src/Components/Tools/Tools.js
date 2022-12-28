@@ -3,10 +3,11 @@ import React from 'react';
 import html from "../../assets/images/html.png";
 import css from "../../assets/images/css.png";
 import tailwind from "../../assets/images/tailwind.png";
+import bootstrap from "../../assets/images/Bootstrap.png";
 import javascript from "../../assets/images/javascript.png";
 import reactImage from "../../assets/images/react.png";
-import nextjs from "../../assets/images/nextjs.png";
 import nodejs from "../../assets/images/node.png";
+import nextjs from "../../assets/images/nextjs.png";
 import github from "../../assets/images/github.png";
 
 const Tools = () => {
@@ -31,21 +32,21 @@ const Tools = () => {
         },
         {
             id: 4,
+            src: bootstrap,
+            title: "Bootstrap",
+            style: "shadow-violet-700",
+        },
+        {
+            id: 5,
             src: javascript,
             title: "JavaScript",
             style: "shadow-yellow-500",
         },
         {
-            id: 5,
+            id: 6,
             src: reactImage,
             title: "React",
-            style: "shadow-blue-600",
-        },
-        {
-            id: 6,
-            src: nextjs,
-            title: "Next JS",
-            style: "shadow-white",
+            style: "shadow-sky-400",
         },
         {
             id: 7,
@@ -53,9 +54,15 @@ const Tools = () => {
             title: "Node JS",
             style: "shadow-lime-500",
         },
-
         {
             id: 8,
+            src: nextjs,
+            title: "Next JS",
+            style: "shadow-white",
+        },
+
+        {
+            id: 9,
             src: github,
             title: "GitHub",
             style: "shadow-gray-400",
