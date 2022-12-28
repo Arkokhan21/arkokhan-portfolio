@@ -4,7 +4,7 @@
         "image": "https://i.ibb.co/0Q5573m/Screenshot-20221212-071830.png",
         "title": "Bikes 4U",
         "description": "A full stack web application, which can be used by three types of users (Buyers, Sellers, and Admins). Buyers can view orders and purchase products. Sellers can add and remove their products. Admin can view all sellers and all buyers.",
-        "technology": "React, MongoDB, Node.js, Stripe, Firebase, Tailwind.",
+        "technology": "React, MongoDB, NodeJs, Stripe, Firebase, Tailwind.",
         "LiveSite": "https://bikes4u-eb6ec.web.app/",
         "ClientCode": "https://github.com/Arkokhan21/bikes-4u-client",
         "ServerCode": "https://github.com/Arkokhan21/bikes-4u-server"
@@ -14,7 +14,7 @@
         "image": "https://i.ibb.co/GQPxp4Y/Screenshot-20221212-072001.png",
         "title": "Fitness Folk",
         "description": "This is a personal service (fitness-related) and service review website. Users can add, delete and update their own reviews. Users can also add services while logged in.",
-        "technology": "React, react-photo-view, Tailwind, Firebase, MongoDB, Node.js.",
+        "technology": "React, react-photo-view, Tailwind, Firebase, MongoDB, NodeJs.",
         "LiveSite": "https://fitness-folk.web.app/",
         "ClientCode": "https://github.com/Arkokhan21/the-fitness-folk-client",
         "ServerCode": "https://github.com/Arkokhan21/the-fitness-folk-server"

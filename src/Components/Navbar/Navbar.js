@@ -30,7 +30,7 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <FaBars size={20} />
                     </label>
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 bg-black rounded-box w-52">
                         {links.map(({ id, link }) => (
                             <li
                                 key={id}

@@ -15,13 +15,13 @@ const AllProjects = () => {
     return (
         <div
             name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 md:h-screen"
+            className="bg-gradient-to-b from-black to-gray-800"
         >
             <div className='p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='my-20 flex justify-center'>
                     <p className='text-white text-4xl font-bold inline border-b-4 border-gray-500'>All Projects</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center'>
                     {
                         allProjects.map(project => <AllProjectDetails key={project.id} project={project}></AllProjectDetails>)
                     }

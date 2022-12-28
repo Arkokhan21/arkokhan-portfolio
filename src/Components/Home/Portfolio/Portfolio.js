@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <div className='my-32 flex justify-center'>
                     <p className='text-white text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center'>
                     {
                         projects.map(project => <PortfolioDetails key={project.id} project={project}></PortfolioDetails>)
                     }

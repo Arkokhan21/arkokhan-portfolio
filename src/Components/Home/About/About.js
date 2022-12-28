@@ -27,7 +27,9 @@ const About = () => {
                         height={400}
                         width={400} />
                 </div>
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="2000">
                     <h1 className="text-5xl font-bold mb-5 text-white">HI! I'M ARKO KHAN</h1>
 
                     <TypeWriterEffect
