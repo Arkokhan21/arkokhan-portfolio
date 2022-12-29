@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                        <FaBars size={20} />
+                        <FaBars size={20} color="white" />
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 bg-black rounded-box w-52">
                         {links.map(({ id, link }) => (

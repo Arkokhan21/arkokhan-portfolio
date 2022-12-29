@@ -5,7 +5,7 @@ import image3 from '../../../assets/images/web-design.png'
 
 const Skills = () => {
     return (
-        <div className="bg-gradient-to-b from-gray-800 to-black">
+        <div className="bg-gradient-to-b from-gray-800 to-black pt-[300px] lg:pt-0">
             <div className='py-20 flex justify-center'>
                 <p className='text-white text-4xl font-bold inline border-b-4 border-gray-500'>What I Provide</p>
             </div>

@@ -22,7 +22,7 @@ const About = () => {
             className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row-reverse">
-                <div>
+                <div className='pt-[300px] lg:pt-0'>
                     <Lottie options={defaultOptions}
                         height={400}
                         width={400} />

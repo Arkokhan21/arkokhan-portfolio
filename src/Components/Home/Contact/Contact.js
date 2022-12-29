@@ -33,9 +33,9 @@ const Contact = () => {
     return (
         <div
             name="contact"
-            className="bg-gradient-to-b from-black to-gray-800"
+            className="bg-gradient-to-b from-black to-gray-800 pt-[450px] lg:pt-32"
         >
-            <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+            <div className="grid max-w-screen-xl grid-cols-1 gap-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
                 <div className="flex flex-col justify-between">
                     <div className="space-y-2">
                         <h2 className="text-4xl font-bold lg:text-5xl text-center text-white">Get In Touch</h2>
@@ -64,4 +64,4 @@ const Contact = () => {
     );
 };
 
-export default Contact; 
+export default Contact;
